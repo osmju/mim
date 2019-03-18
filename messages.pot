@@ -1,0 +1,368 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-02-20 18:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: forms.py:13
+msgid ""
+"        \n"
+"        During this experiment you will be asked to taste chocolate \n"
+"        (two small portions).\n"
+"\n"
+"        By participating in this experiment, you confirm that you \n"
+"        do not have any impairments when consuming chocolate \n"
+"        (i.e. allergies or diabetes), neither an impairment \n"
+"        with your senses of taste, smell, or any problems with \n"
+"        your visual and hearing capabilities.\n"
+"\n"
+"        For your safety, the personal information that you will here \n"
+"        provide will not be shared with anyone else, and it won't be \n"
+"        used  publicly.\n"
+"\n"
+"        By clicking below, you confirm that you agree with the \n"
+"        aforementioned conditions, and you can start the experiment.\n"
+"\n"
+"        Please keep in mind that you can stop participating in this "
+"experiment,\n"
+"        at any time, without any consequences. If you require help, \n"
+"        or if you have inquiries, please do not hesitate to call any of \n"
+"        the present research assistants. \n"
+"        "
+msgstr ""
+
+#: forms.py:36
+msgid "Name"
+msgstr ""
+
+#: forms.py:37
+msgid "Email (Optional)"
+msgstr ""
+
+#: forms.py:38
+msgid "Age"
+msgstr ""
+
+#: forms.py:39
+msgid "City or country of residence"
+msgstr ""
+
+#: forms.py:40
+msgid "Gender"
+msgstr ""
+
+#: forms.py:41
+msgid "Male"
+msgstr ""
+
+#: forms.py:42
+msgid "Female"
+msgstr ""
+
+#: forms.py:43
+msgid "Other"
+msgstr ""
+
+#: forms.py:45
+msgid "Informed Consent"
+msgstr ""
+
+#: forms.py:47
+msgid "I agree"
+msgstr ""
+
+#: forms.py:47
+msgid "I disagree"
+msgstr ""
+
+#: forms.py:48 forms.py:128 forms.py:171 templates/instructions.html:20
+#: templates/listen_sound.html:37
+msgid "Next"
+msgstr ""
+
+#: forms.py:64
+msgid "How sour was this chocolate's flavour ?"
+msgstr ""
+
+#: forms.py:66 forms.py:74 forms.py:82 forms.py:90 forms.py:98 forms.py:106
+#: forms.py:114
+msgid "1 - Not at all"
+msgstr ""
+
+#: forms.py:68 forms.py:76 forms.py:84 forms.py:92 forms.py:100 forms.py:108
+#: forms.py:116
+msgid "4 - Moderate"
+msgstr ""
+
+#: forms.py:70
+msgid "7 - Very sour"
+msgstr ""
+
+#: forms.py:72
+msgid "How much did you like this sound ?"
+msgstr ""
+
+#: forms.py:78 forms.py:86 forms.py:118
+msgid "7 - Very much"
+msgstr ""
+
+#: forms.py:80
+msgid "How much did you enjoy the flavour of this chocolate ?"
+msgstr ""
+
+#: forms.py:88
+msgid "How bitter was this chocolate's flavour ?"
+msgstr ""
+
+#: forms.py:94
+msgid "7 - Very bitter"
+msgstr ""
+
+#: forms.py:96
+msgid "How sweet was this chocolate's flavour ?"
+msgstr ""
+
+#: forms.py:102
+msgid "7 - Very sweet"
+msgstr ""
+
+#: forms.py:104
+msgid "How strong was this chocolate's flavour ?"
+msgstr ""
+
+#: forms.py:110
+msgid "7 - Very strong"
+msgstr ""
+
+#: forms.py:112
+msgid "How much do you think this song matches with this chocolate's flavour?"
+msgstr ""
+
+#: forms.py:120
+msgid "How was the texture of this chocolate?"
+msgstr ""
+
+#: forms.py:122
+msgid "1 - Very hard"
+msgstr ""
+
+#: forms.py:124
+msgid "4 - Balanced"
+msgstr ""
+
+#: forms.py:126
+msgid "7 - Very soft"
+msgstr ""
+
+#: forms.py:132
+msgid "Which chocolate (between WD and TK) do you think is more expensive?"
+msgstr ""
+
+#: forms.py:134 forms.py:155
+msgid "Chocolate WD"
+msgstr ""
+
+#: forms.py:135 forms.py:156
+msgid "Chocolate TK"
+msgstr ""
+
+#: forms.py:136
+msgid "Both have the same price"
+msgstr ""
+
+#: forms.py:141
+msgid ""
+"Would you pay more for a chocolate experience that comes with a song that"
+" is able to enhance its flavour? (Compared to the average price of a "
+"chocolate without any music?)"
+msgstr ""
+
+#: forms.py:143
+msgid "Yes"
+msgstr ""
+
+#: forms.py:144
+msgid "No"
+msgstr ""
+
+#: forms.py:148
+msgid ""
+"How much would you pay for chocolate WD? (Answer in Euros and, as "
+"reference, assume 2 EUR as the approximate price average per unit)"
+msgstr ""
+
+#: forms.py:151
+msgid "Which chocolate did you prefer ?"
+msgstr ""
+
+#: forms.py:153
+msgid "I like both equally"
+msgstr ""
+
+#: forms.py:154
+msgid "None"
+msgstr ""
+
+#: forms.py:160
+msgid "Which experience did you prefer?"
+msgstr ""
+
+#: forms.py:162
+msgid "With chocolate WD"
+msgstr ""
+
+#: forms.py:163
+msgid "Both equally"
+msgstr ""
+
+#: forms.py:164
+msgid "With chocolate TK"
+msgstr ""
+
+#: forms.py:168
+msgid ""
+"How much would you pay for chocolate TK? (Answer in Euros and, as "
+"reference, assume 2 EUR as the approximate price average per unit)"
+msgstr ""
+
+#: strings.py:4
+msgid ""
+"\n"
+"        Dear participant, \n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        In this experiment, you will taste two chocolates and evaluate "
+"your\n"
+"        experience by answering a survey.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        This is a comparative exercise. Please follow the instructions \n"
+"        carefully.\n"
+"    "
+msgstr ""
+
+#: strings.py:20
+msgid ""
+"\n"
+"        Drink some water to rinse your mouth. Afterwards, put on the\n"
+"        headphones.<br/>\n"
+"        <br/>\n"
+"\n"
+"        Now, taste the chocolate <b>WD</b> while you listen to the \n"
+"        following soundtrack. You must click on the \"play\" button in \n"
+"        order for the sound to start playing.<br/>\n"
+"        <br/>\n"
+"\n"
+"        Once you start hearing the sound, put the chocolate inside your "
+"mouth\n"
+"        and start tasting it.<br/>\n"
+"        <br/>\n"
+"\n"
+"        <h3>DO NOT CHEW THE CHOCOLATE IMMEDIATELY !</h3>\n"
+"        <br/>\n"
+"        \n"
+"        Let it melt inside your mouth, so you can feel the details of its"
+"\n"
+"        flavour. You can also close your eyes for better concentration.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        <i>When the soundtrack is over, go to the next page and start "
+"answering\n"
+"        the questions.</i>\n"
+"    "
+msgstr ""
+
+#: strings.py:47
+msgid ""
+"\n"
+"        Drink some water to rinse your mouth. Afterwards, put on the\n"
+"        headphones.<br/>\n"
+"        <br/>\n"
+"\n"
+"        Now, taste the chocolate <b>TK</b> while you listen to the \n"
+"        following soundtrack. You must click on the \"play\" button in \n"
+"        order for the sound to start playing.<br/>\n"
+"        <br/>\n"
+"\n"
+"        Once you start hearing the sound, put the chocolate inside your "
+"mouth\n"
+"        and start tasting it.<br/>\n"
+"        <br/>\n"
+"\n"
+"        <h3>DO NOT CHEW THE CHOCOLATE IMMEDIATELY !</h3>\n"
+"        <br/>\n"
+"        \n"
+"        Let it melt inside your mouth, so you can feel the details of its"
+"\n"
+"        flavour. You can also close your eyes for better concentration.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        <i>When the soundtrack is over, go to the next page and start "
+"answering\n"
+"        the questions.</i>\n"
+"    "
+msgstr ""
+
+#: strings.py:73
+msgid ""
+"        \n"
+"        If you entered your email at the begining of the experiment, \n"
+"        you will receive detailled informations about the goals of this "
+"work\n"
+"        in the upcoming weeks.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        The protocol for this experiment was validated by the \n"
+"        Ethical Comitee of the Katholieke Universiteit Leuven.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        If you have any questions, please send them to\n"
+"        f.reinosoc@uniandes.edu.com.\n"
+"        <br/>\n"
+"        <br/> \n"
+"\n"
+"        We kindly ask you to keep this experience for yourself and not\n"
+"        sharing it such that the next participants can enjoy the full\n"
+"        experience.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        For more informations about our work, please visit        \n"
+"        the blog http://sonictaste.weebly.com, \n"
+"        our twitter page (@sonictaste), or come visit us at the \n"
+"        Katholieke Universiteit Leuven.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        We hope that you enjoyed this new way of tasting Belgian "
+"chocolate !\n"
+"    "
+msgstr ""
+
+#: templates/login.html:13
+msgid "Participant's Informations"
+msgstr ""
+
+#: templates/thanks.html:11
+msgid "Thank you for your participation !"
+msgstr ""
+

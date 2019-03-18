@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <link href="{{ url_for('static', filename='css/form.css') }}" rel="stylesheet" type="text/css" />
+        <script src="{{url_for('static', filename='scripts/jquery-3.3.1.min.js')}}"></script>
+    </head>
+
+    <body>
+        <div id="dummy"></div>
+        
+        <div id="form_frame">
+            <div id="title">
+                <div id="form_title">
+                    <h2> {{ gettext("Participant's Informations") }} </h2>
+                </div>
+
+                <div id="language_select">
+                    <select>
+                        {% if lang=="en" %}
+                            <option value="en" selected="selected">English</option>
+                        {% else %}
+                            <option value="en">English</option>
+                        {% endif %}
+
+                        {% if lang=="fr" %}
+                            <option value="fr" selected="selected">Français</option>
+                        {% else %}
+                            <option value="fr">Français</option>
+                        {% endif %}
+
+                        {% if lang=="nl" %}
+                            <option value="nl" selected="selected">Nederlands</option>
+                        {% else %}
+                            <option value="nl">Nederlands</option>
+                        {% endif %}
+                    </select>
+                </div>
+            </div>
+            
+            <div id="form_fields">
+                <form method="POST">
+                    {{ form.csrf_token }}
+                    {{ form.hidden_tag() }}
+                    
+                    <div id="field_pair_login">
+                        <div id="field_title">
+                            {{ form.name.label }}
+                        </div>
+
+                        <div id="field_input">
+                            {{ form.name(size=5, class_="inputfield") }}
+                        </div>
+                    </div>
+
+                    <div id="field_pair_login">
+                        <div id="field_title">
+                            {{ form.email.label }}
+                        </div>
+
+                        <div id="field_input">
+                            {{ form.email(class_="inputfield") }}
+                        </div>
+                    </div>
+
+                    <div id="field_pair_login">
+                        <div id="field_title">
+                            {{form.age.label }}
+                        </div>
+
+                        <div id="field_input">
+                            {{ form.age(class_="inputfield") }}
+                        </div>
+                    </div>
+
+                    <div id="field_pair_login">
+                        <div id="field_title">
+                            {{ form.city.label }}
+                        </div>
+
+                        <div id="field_input">
+                            {{ form.city(class_="inputfield") }}
+                        </div>
+                    </div>                    
+                    
+                    <div id="field_pair_login">
+                        <div id="field_title">
+                            {{ form.gender.label }}
+                        </div>
+
+                        <div id="field_input">
+                            {{ form.gender(class_="inputfield") }}
+                        </div>
+                    </div>                   
+                    
+                    <div id="field_pair_consent">
+                        <div id="field_title_wide">
+                            {{form.consent_text.label}}
+                        </div>
+
+                        <div id="field_consent">
+                            {{ form.consent_text(cols=78, rows=22) }}
+                        </div>  
+                    </div>
+
+                    <div id="field_pair_login">
+                        <div id="field_wide_single_line">
+                            {{ form.consent }}
+                        </div>                        
+                    </div>
+                    
+                    <div id="button_field">
+                        {{ form.submit(class_="button") }}
+                    </div>          
+  
+                    
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+<script>
+
+$('#language_select').change(function() {
+    lang_selected = $.trim($( "#language_select option:selected" ).val());
+
+    if (lang_selected == "fr") {
+        $('#dummy').load('{{ url_for("change_language", lang="fr") }}' );
+    }
+    else if (lang_selected == "en") {
+        $('#dummy').load('{{ url_for("change_language", lang="en") }}' );
+    } 
+    else if (lang_selected == "nl") {
+        $('#dummy').load('{{ url_for("change_language", lang="nl") }}' );
+    } 
+    
+    $('#language_select').val(lang_selected);
+    location.reload();
+});
+
+</script>

@@ -1,0 +1,472 @@
+# French translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-01-11 12:06+0100\n"
+"PO-Revision-Date: 2019-01-11 12:06+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: app.py:141
+msgid "REDIRECTING TO NEW EXPERIMENT"
+msgstr ""
+
+#: forms.py:11
+msgid ""
+"        \n"
+"        During this experiment you will be asked to taste chocolate \n"
+"        (two small portions).\n"
+"\n"
+"        By participating in this experiment, you confirm that you \n"
+"        do not have any impairments when consuming chocolate \n"
+"        (i.e. allergies or diabetes), neither an impairment \n"
+"        with your senses of taste, smell, or any problems with \n"
+"        your visual and hearing capabilities.\n"
+"\n"
+"        For your safety, the personal information that you will here \n"
+"        provide will not be shared with anyone else, and it won't be \n"
+"        used  publicly.\n"
+"\n"
+"        By clicking below, you confirm that you agree with the \n"
+"        aforementioned conditions, and you can start the experiment.\n"
+"\n"
+"        Please keep in mind that you can stop participating in this "
+"experiment,\n"
+"        at any time, without any consequences. If you require help, \n"
+"        or if you have inquiries, please do not hesitate to call any of \n"
+"        the present research assistants. \n"
+"        "
+msgstr ""
+"        \n"
+"        Dans cette expérience, vous allez goûter du chocolat \n"
+"        (deux petits morceaux).\n"
+"\n"
+"        En participant à cette expérience, vous confirmez que vous \n"
+"        n'avez aucun problème à manger du chocolat \n"
+"        (i.e. allergies ou diabète), de problèmes  \n"
+"        avec vos sens gustatifs et d'odorat, ou de problèmes de \n"
+"        vision ou d'audition.\n"
+"\n"
+"        Pour votre sécurité, les informations personnelles que vous avez \n"
+"        fournies seront gardés privées, et ne seront pas utilisées \n"
+"        publiquement.\n"
+"\n"
+"        En cliquant ci-dessous, vous confirmez que vous acceptez les conditions\n"
+"        ci-dessous, et vous pouvez démarrer l'expérience.\n"
+"\n"
+"        Vous pouvez interrompre l'expérience à tout moment, sans conséquence\n"
+"        aucune. Si vous désirez de l'aide, ou pour toute question,\n"
+"        n'hésitez pas à faire appel à l'un des assistants de recherche.\n"
+""
+
+#: forms.py:34
+msgid "Name"
+msgstr "Nom"
+
+#: forms.py:35
+msgid "Email (Optional)"
+msgstr "Email (optionel)"
+
+#: forms.py:36
+msgid "Age"
+msgstr "Age"
+
+#: forms.py:37
+msgid "City or country of residence"
+msgstr "Ville ou pays de résidence"
+
+#: forms.py:38
+msgid "Gender"
+msgstr "Genre"
+
+#: forms.py:39
+msgid "Male"
+msgstr "Masculin"
+
+#: forms.py:40
+msgid "Female"
+msgstr "Féminin"
+
+#: forms.py:41
+msgid "Other"
+msgstr "Autre"
+
+#: forms.py:43
+msgid "Informed Consent"
+msgstr "Devoir d'information"
+
+#: forms.py:45
+msgid "I agree"
+msgstr "Je suis d'accord"
+
+#: forms.py:45
+msgid "I disagree"
+msgstr "Je ne suis pas d'accord"
+
+#: forms.py:46 forms.py:126 forms.py:160 templates/instructions.html:20
+#: templates/listen_sound.html:37
+msgid "Next"
+msgstr "Suivant"
+
+#: forms.py:62
+msgid "How sour was this chocolate's flavour ?"
+msgstr "La saveur du chocolat était-elle acide ?"
+
+#: forms.py:64 forms.py:72 forms.py:80 forms.py:88 forms.py:96 forms.py:104
+#: forms.py:112
+msgid "1 - Not at all"
+msgstr "1 - Pas du tout"
+
+#: forms.py:66 forms.py:74 forms.py:82 forms.py:90 forms.py:98 forms.py:106
+#: forms.py:114
+msgid "4 - Moderate"
+msgstr "4 - Moyennement"
+
+#: forms.py:68
+msgid "7 - Very sour"
+msgstr "7 - Très acide"
+
+#: forms.py:70
+msgid "How much did you like this sound ?"
+msgstr "Avez vous aimé le son ?"
+
+#: forms.py:76 forms.py:84 forms.py:116
+msgid "7 - Very much"
+msgstr "7 - Très beaucoup"
+
+#: forms.py:78
+msgid "How much did you enjoy the flavour of this chocolate ?"
+msgstr "Avez vous apprécié la saveur de ce chocolat ? "
+
+#: forms.py:86
+msgid "How bitter was this chocolate's flavour ?"
+msgstr "La saveur du chocolat était-elle amer ?"
+
+#: forms.py:92
+msgid "7 - Very bitter"
+msgstr "7 - Très amer"
+
+#: forms.py:94
+msgid "How sweet was this chocolate's flavour ?"
+msgstr "La saveur du chocolat était elle sucrée ?"
+
+#: forms.py:100
+msgid "7 - Very sweet"
+msgstr "7 - Très sucrée"
+
+#: forms.py:102
+msgid "How strong was this chocolate's flavour ?"
+msgstr "Avez vous trouvé le goût du chocolat fort ?"
+
+#: forms.py:108
+msgid "7 - Very strong"
+msgstr "7 - Très fort"
+
+#: forms.py:110
+msgid "How much do you think this song matches with this chocolate's flavour?"
+msgstr "Pensez vous que le son corresponde à la saveur de ce chocolat ? "
+
+#: forms.py:118
+msgid "How was the texture of this chocolate?"
+msgstr "Quelle était la texture du chocolat ? "
+
+#: forms.py:120
+msgid "1 - Very hard"
+msgstr "1 - Très croquante"
+
+#: forms.py:122
+msgid "4 - Balanced"
+msgstr "4 - Modérée"
+
+#: forms.py:124
+msgid "7 - Very soft"
+msgstr "7 - Très souple"
+
+#: forms.py:130
+msgid "Which chocolate (between WD and TK) do you think is more expensive?"
+msgstr "D'après vous, quel chocolat (entre WD et TK) est le plus cher ?"
+
+#: forms.py:132 forms.py:148
+msgid "Chocolate WD"
+msgstr "Chocolat WD"
+
+#: forms.py:133 forms.py:149
+msgid "Chocolate TK"
+msgstr "Chocolat TK"
+
+#: forms.py:134
+msgid "Both have the same price"
+msgstr "Les deux ont le même prix"
+
+#: forms.py:136
+msgid ""
+"Would you pay more for a chocolate experience that comes with a song that"
+" is able to enhance its flavour? (Compared to the average price of a "
+"chocolate without any music?)"
+msgstr "Accepteriez vous de payer plus pour un chocolat vendu avec un son capable"
+" d'améliorer sa saveur ? (par rapport au prix moyen d'un chocolat sans son).
+
+#: forms.py:138
+msgid "Yes"
+msgstr "Oui"
+
+#: forms.py:139
+msgid "No"
+msgstr "Non"
+
+#: forms.py:141
+msgid ""
+"How much would you pay for chocolate WD? (Answer in Euros and, as "
+"reference, assume 2 EUR as the approximate price average per unit)"
+msgstr ""
+"Combien seriez vous prêts à payer pour le chocolat WD ? (Répondez en "
+"Euros, en considérant que 2 EUR est le prix moyen d'un morceau de"
+" chocolat standard)"
+
+#: forms.py:144
+msgid "Which chocolate did you prefer ?"
+msgstr "Quel chocolat avez vous préféré ?"
+
+#: forms.py:146
+msgid "I like both equally"
+msgstr "Les deux"
+
+#: forms.py:147
+msgid "None"
+msgstr "Aucun"
+
+#: forms.py:151
+msgid "Which experience did you prefer?"
+msgstr "Quelle expérience avez vous préféré ?"
+
+#: forms.py:153
+msgid "With chocolate WD"
+msgstr "Avec le chocolat WD"
+
+#: forms.py:154
+msgid "Both equally"
+msgstr "Les deux"
+
+#: forms.py:155
+msgid "With chocolate TK"
+msgstr "Avec le chocolat TK"
+
+#: forms.py:157
+msgid ""
+"How much would you pay for chocolate TK? (Answer in Euros and, as "
+"reference, assume 2 EUR as the approximate price average per unit)"
+msgstr ""
+"Combien seriez vous prêts à payer pour le chocolat TK ? "
+"(Répondez en Euros, en considérant que 2 EUR est le prix moyen d'un morceau de chocolat standard)"
+
+#: strings.py:4
+msgid ""
+"\n"
+"        Dear participant, \n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        In this experiment, you will taste two chocolates and evaluate "
+"your\n"
+"        experience by answering a survey.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        This is a comparative exercise. Please follow the instructions \n"
+"        carefully.\n"
+"    "
+msgstr ""
+"\n"
+"        Cher participant, \n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        Dans cette expérience, vous allez goûter deux morceaux de chocolat et évaluer votre \n"
+"        expérience en répondant à quelques questions.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        Ceci est un exercice comparatif. Veuillez suivre les instructions précisément. \n"
+"    "
+
+#: strings.py:20
+msgid ""
+"\n"
+"        Drink some water to rinse your mouth. Afterwards, put on the\n"
+"        headphones.<br/>\n"
+"        <br/>\n"
+"\n"
+"        Now, taste the chocolate <b>WD</b> while you listen to the \n"
+"        following soundtrack. You must click on the \"play\" button in \n"
+"        order for the sound to start playing.<br/>\n"
+"        <br/>\n"
+"\n"
+"        Once you start hearing the sound, put the chocolate inside your "
+"mouth\n"
+"        and start tasting it.<br/>\n"
+"        <br/>\n"
+"\n"
+"        <h3>DO NOT CHEW THE CHOCOLATE IMMEDIATELY !</h3>\n"
+"        <br/>\n"
+"        \n"
+"        Let it melt inside your mouth, so you can feel the details of its"
+"\n"
+"        flavour. You can also close your eyes for better concentration.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        <i>When the soundtrack is over, go to the next page and start "
+"answering\n"
+"        the questions.</i>\n"
+"    "
+msgstr ""
+" Buvez un peu d'eau pour vous rincer la bouche. Ensuite, positionnez le casque sur vos oreilles."
+" <br/>\n"
+" <br/>\n"
+" Démarrez le son ci-dessous en cliquant sur le bouton <i>play</i>. Placez le morceau de chocolat <b>WD</b>"
+" en bouche et commencez à le goûter."
+" <br/>\n"
+" <h3> NE MACHEZ PAS LE CHOCOLAT TOUT DE SUITE ! </h3>\n"
+" <br/>\n"
+" \n"
+" Laissez le fondre dans votre bouche afin d'en saisir tous les détails. Vous pouvez également"
+" fermer les yeux pour une meilleure concentration.\n"
+" <br/>\n"
+" <br/>\n"
+" <i> Lorsque le son est terminé, passez à la page suivante et répondez aux questions. </i>\n" 
+
+#: strings.py:47
+msgid ""
+"\n"
+"        Drink some water to rinse your mouth. Afterwards, put on the\n"
+"        headphones.<br/>\n"
+"        <br/>\n"
+"\n"
+"        Now, taste the chocolate <b>TK</b> while you listen to the \n"
+"        following soundtrack. You must click on the \"play\" button in \n"
+"        order for the sound to start playing.<br/>\n"
+"        <br/>\n"
+"\n"
+"        Once you start hearing the sound, put the chocolate inside your "
+"mouth\n"
+"        and start tasting it.<br/>\n"
+"        <br/>\n"
+"\n"
+"        <h3>DO NOT CHEW THE CHOCOLATE IMMEDIATELY !</h3>\n"
+"        <br/>\n"
+"        \n"
+"        Let it melt inside your mouth, so you can feel the details of its"
+"\n"
+"        flavour. You can also close your eyes for better concentration.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        <i>When the soundtrack is over, go to the next page and start "
+"answering\n"
+"        the questions.</i>\n"
+"    "
+msgstr ""
+" Buvez un peu d'eau pour vous rincer la bouche. Ensuite, positionnez le casque sur vos oreilles."
+" <br/>\n"
+" <br/>\n"
+" Démarrez le son ci-dessous en cliquant sur le bouton <i>play</i>. Placez le morceau de chocolat <b>TK</b>"
+" en bouche et commencez à le goûter."
+" <br/>\n"
+" <h3> NE MACHEZ PAS LE CHOCOLAT TOUT DE SUITE ! </h3>\n"
+" <br/>\n"
+" \n"
+" Laissez le fondre dans votre bouche afin d'en saisir tous les détails. Vous pouvez également"
+" fermer les yeux pour une meilleure concentration.\n"
+" <br/>\n"
+" <br/>\n"
+" <i> Lorsque le son est terminé, passez à la page suivante et répondez aux questions. </i>\n" 
+
+
+#: strings.py:73
+msgid ""
+"        \n"
+"        If you entered your email at the begining of the experiment, \n"
+"        you will receive detailled informations about the goals of this "
+"work\n"
+"        in the upcoming weeks.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        The protocol for this experiment was validated by the \n"
+"        Ethical Comitee of the Katholieke Universiteit Leuven.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        If you have any questions, please send them to\n"
+"        f.reinosoc@uniandes.edu.com.\n"
+"        <br/>\n"
+"        <br/> \n"
+"\n"
+"        We kindly ask you to keep this experience for yourself and not\n"
+"        sharing it such that the next participants can enjoy the full\n"
+"        experience.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        For more informations about our work, please visit        \n"
+"        the blog http://sonictaste.weebly.com, \n"
+"        our twitter page (@sonictaste), or come visit us at the \n"
+"        Katholieke Universiteit Leuven.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        We hope that you enjoyed this new way of tasting Belgian "
+"chocolate !\n"
+"    "
+msgstr ""
+"        \n"
+"        Si vous avez entré une adresse email au début de l'expérience, \n"
+"        vous recevrez des informations détaillées sur l'objectif de ce travail "
+"        dans les semaines à venir.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        Le protocole de cette expérience a été validée par le comité \n"
+"        étique de l'Université Catholique de Louvain (KUL).\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        Pour toute question, veuillez vous adresser par email à\n"
+"        f.reinosoc@uniandes.edu.com.\n"
+"        <br/>\n"
+"        <br/> \n"
+"\n"
+"        Nous vous prions de garder les détails de cette expérience pour vous et de ne pas\n"
+"        partager votre expérience de sorte que les participants suivants \n"
+"        profitent pleinement de l'expérience.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        Pour plus d'information sur notre travail, visitez le blog\n"
+"        http://sonictaste.weebly.com, \n"
+"        notre page twitter (@sonictaste), ou venez nous rendre visite à l'Université Catholique de Louvain. \n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        Nous espérons que avez apprécié cette nouvelle manière de goûter du chocolat Belge !\n "
+"    "
+
+#: templates/login.html:11
+msgid "Participant's Informations"
+msgstr "Informations personnelles"
+
+#: templates/thanks.html:11
+msgid "Thank you for your participation !"
+msgstr "Merci pour votre participation !"
+

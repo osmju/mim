@@ -1,0 +1,11 @@
+ID,Name,Email,Age,City,Gender,Flavor 1,Flavor 2,Sound 1,Sound 2,snd1-q1,snd1-q2,snd1-q3,snd1-q4,snd1-q5,snd1-q6,snd1-q7,snd1-q8,snd2-q1,snd2-q2,snd2-q3,snd2-q4,snd2-q5,snd2-q6,snd2-q7,snd2-q8,cmp-q1,cmp-q2,cmp-q3,cmp-q4,cmp-q5,cmp-q6
+0,Benjamin Laugraud ,benlaug75@gmail.com,42,Mante la Jolie,gender_female,sweet,sour,audio_db/sweet/sweet4.mp3,audio_db/sour/sour1.mp3,1,1,1,1,1,1,1,1,7,7,7,7,7,7,7,7,Both,no,2,None,WD,2
+1,Julien Osmalskyj,josmalskyj@gmail.com,31,Liege,gender_male,sour,bitter,audio_db/sour/sour1.mp3,audio_db/bitter/bitter1.mp3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,Both,yes,1,None,TK,1
+2,Sébastien Pierard,sebinou777@caramail.com,52,Sart Tilman,gender_male,bitter,sour,audio_db/bitter/bitter1.mp3,audio_db/sour/sour2.mp3,1,1,1,1,1,1,1,1,7,7,7,7,7,7,7,7,Both,yes,42,Both,Both,42
+3,Isabelle Mainz,ziza18@caramail.com,28,La maison de Sébinou,gender_female,bitter,sweet,audio_db/bitter/bitter5.mp3,audio_db/sweet/sweet5.mp3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,TK,yes,5,Both,WD,2
+4,Jean Pierre Foucault,jpc@tf1.fr,66,Paris,gender_male,bitter,sour,audio_db/bitter/bitter5.mp3,audio_db/sour/sour4.mp3,5,1,6,7,1,3,4,2,4,2,7,7,1,6,3,5,Both,no,5,Both,TK,2
+5,Julien Osmalskyj,josmalskyj@gmail.com,31,Liege,gender_male,bitter,sweet,audio_db/bitter/bitter5.mp3,audio_db/sweet/sweet3.mp3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,Both,yes,2,None,TK,2
+6,Julien Osmalskyj,josmalskyj@gmail.com,31,Liege,gender_male,bitter,sour,audio_db/bitter/bitter2.mp3,audio_db/sour/sour3.mp3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,TK,yes,2,None,Both,2
+7,Jules Vernes,j.vernes@gmail.com,127,France,gender_male,creamy,rough,fixed_sounds/WD_creamy_soundtrack.mp3,fixed_sounds/TK_rough_soundtrack.mp3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,Both,no,1,Both,Both,1
+8,Jacques Chirac,chirac@france.fr,87,France,gender_male,emotions04,emotions01,fixed_sounds/WD_music_emotions_04.mp3,fixed_sounds/TK_music_emotions_01.mp3,7,7,7,7,7,7,7,7,1,1,1,1,1,1,1,1,Both,no,42,Both,TK,2
+9,Emmanuel Macron,macron@elysee.fr,19,Paris,gender_other,sour,bitter,audio_db/sour/sour3.mp3,audio_db/bitter/bitter5.mp3,1,1,1,1,1,1,1,1,7,7,7,7,7,7,7,7,TK,yes,1,TK,TK,1

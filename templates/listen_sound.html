@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link href="{{ url_for('static', filename='css/form.css') }}" rel="stylesheet" type="text/css" />
+        <script src="{{url_for('static', filename='scripts/jquery-3.3.1.min.js')}}"></script>
+        <script src="{{url_for('static', filename='scripts/wavesurfer.min.js')}}"></script>
+    </head>
+
+    <body>
+        
+        <div id="instruct_frame_large">
+            <div id="form_title">
+                <h2> Instructions </h2>
+            </div>
+
+            <!--
+            <div id="waveform">
+                <div style="text-align: center">
+                    <button class="button btn-primary" onclick="wavesurfer.playPause()">Play</button>
+                </div>
+            </div>
+            
+            <div id="vertical_space"></div>
+            -->
+
+            <div id="instructions_large">
+                {{ instruct | safe }}
+            </div>
+
+            <div id="audio_player_simple">
+                <audio controls>                
+                    <source src={{url_for('static', filename=sound)}} type="audio/mpeg">
+                </audio>
+            </div>
+            
+            <div id="button_field">
+                <form method="POST">
+                    <input class="button" type="submit" value={{ gettext("Next") }}>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+

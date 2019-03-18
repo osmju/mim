@@ -1,0 +1,3 @@
+xp_id,name,email,age,city,gender,flavor1,flavor2,sound1,sound2,snd1_q1,snd1_q2,snd1_q3,snd1_q4,snd1_q5,snd1_q6,snd1_q7,snd1_q8,snd2_q1,snd2_q2,snd2_q3,snd2_q4,snd2_q5,snd2_q6,snd2_q7,snd2_q8,cmp_q1,cmp_q2,cmp_q3,cmp_q4,cmp_q5,cmp_q6
+1,"Benjamin Laugraud ",benlaug75@gmail.com,42,"Mante la Jolie",gender_female,sweet,sour,audio_db/sweet/sweet4.mp3,audio_db/sour/sour1.mp3,1,1,1,1,1,1,1,1,7,7,7,7,7,7,7,7,Both,no,2,None,WD,2
+2,"Julien Osmalskyj",josmalskyj@gmail.com,31,Liege,gender_male,sour,bitter,audio_db/sour/sour1.mp3,audio_db/bitter/bitter1.mp3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,Both,yes,1,None,TK,1

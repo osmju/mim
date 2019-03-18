@@ -1,0 +1,186 @@
+<html>
+    <head>
+        <link href="{{ url_for('static', filename='css/form.css') }}" rel="stylesheet" type="text/css" />
+        <script src="{{url_for('static', filename='scripts/jquery-3.3.1.min.js')}}"></script>
+    </head>
+
+    <body>
+        
+        <div id="form_frame_questions">
+            <div id="form_title_single">
+                <h2> Questions </h2>
+            </div>
+            
+            <div id="form_fields">
+                <form method="POST">
+                    {{ form.csrf_token }}
+                    {{ form.hidden_tag() }}
+                    
+                    <div id="q1">
+                        <div id="field_pair">
+                            <div id="form_question_large">                            
+                                {{ form.question1_text }}
+                            </div>                         
+
+                            <div id="radio_container">                            
+                                {% for subfield in form.question1 %}
+                                    {{ subfield }} {{ subfield.label }} 
+                                {% endfor %}                            
+                            </div>                        
+                        </div>
+                    </div>
+                    
+                    <div id="q2">
+                        <div id="field_pair">
+                            <div id="form_question_large">
+                                {{ form.question2_text }}
+                            </div>
+
+                            <div id="radio_container">
+                                {% for subfield in form.question2 %}
+                                    {{ subfield }} {{ subfield.label }}                
+                                {% endfor %}
+                            </div>                          
+                        </div>
+                    </div>
+                    
+                    <div id="q3">
+                        <div id="field_pair">
+                            <div id="form_question_large">
+                                {{ form.question3_text }}
+                            </div>
+
+                            <div id="radio_container">
+                                {% for subfield in form.question3 %}
+                                    {{ subfield }} {{ subfield.label }}                
+                                {% endfor %}
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div id="q4">
+                        <div id="field_pair">
+                            <div id="form_question_large">
+                                {{ form.question4_text }}
+                            </div>
+
+                            <div id="radio_container">
+                                {% for subfield in form.question4 %}
+                                    {{ subfield }} {{ subfield.label }}                
+                                {% endfor %}
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div id="q5">
+                        <div id="field_pair">
+                            <div id="form_question_large">
+                                {{ form.question5_text }}
+                            </div>
+
+                            <div id="radio_container">
+                                {% for subfield in form.question5 %}
+                                    {{ subfield }} {{ subfield.label }}                
+                                {% endfor %}
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div id="q6">
+                        <div id="field_pair">
+                            <div id="form_question_large">
+                                {{ form.question6_text }}
+                            </div>
+
+                            <div id="radio_container">
+                                {% for subfield in form.question6 %}
+                                    {{ subfield }} {{ subfield.label }}                
+                                {% endfor %}
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div id="q7">
+                        <div id="field_pair">
+                            <div id="form_question_large">
+                                {{ form.question7_text }}
+                            </div>
+
+                            <div id="radio_container">
+                                {% for subfield in form.question7 %}
+                                    {{ subfield }} {{ subfield.label }}                
+                                {% endfor %}
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div id="q8">
+                        <div id="field_pair">
+                            <div id="form_question_large">
+                                {{ form.question8_text }}
+                            </div>
+
+                            <div id="radio_container">
+                                {% for subfield in form.question8 %}
+                                    {{ subfield }} {{ subfield.label }}                
+                                {% endfor %}
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div id="button_field">
+                        {{ form.submit(class_="button") }}
+                    </div> 
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!------------------------------------------------------------------------------------>
+
+<script>    
+    var divs = ['#q1', '#q2', '#q3', '#q4', '#q5', '#q6', '#q7', '#q8'];
+    var num_items = divs.length;
+
+    while (num_items != 2) {
+        var id1 = Math.floor(Math.random() * num_items);
+        var id2 = Math.floor(Math.random() * num_items);       
+
+        while (id1 == id2) {
+            var id2 = Math.floor(Math.random() * num_items);
+        }
+
+        var item1 = divs[id1];
+        var item2 = divs[id2];              
+
+        //console.log("SWAP " + item1 + " WITH " + item2);
+        
+        // actually swap here:
+        var temp = $(item1).html()
+        $(item1).replaceWith($(item2).html());
+        $(item2).replaceWith(temp);
+
+        // remove item1 and item2 from divs
+        var index_item1 = divs.indexOf(item1);
+        divs.splice(index_item1, 1); // this modifies divs !
+        var index_item2 = divs.indexOf(item2);
+        divs.splice(index_item2, 1); 
+
+        num_items = num_items - 2;
+    }
+
+    //console.log("Remaining divs :: " + divs.length);
+    //console.log("SWAP " + divs[0] + " WITH " + divs[1]);
+
+    // actually swap last 2 items:
+    var item1 = divs[0];
+    var item2 = divs[1];
+
+    var temp = $(item1).html()
+    $(item1).replaceWith($(item2).html());
+    $(item2).replaceWith(temp);
+</script>
+
+<!------------------------------------------------------------------------------------>

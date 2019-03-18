@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+  <page name='login'>
+    <text label='name'> Name </text>
+    <text label='email'> Email </text>
+    <text label='age'> Age </text>
+    <text label='city'> City or country of residence </text>
+    <text label='gender'> Gender </text>
+  </page>
+
+  <page name='instructions'>
+    <text label='instructions'>
+      Text line 1
+      Text line 2
+      Text line 3
+    </text>
+  </page>
+</pages>
