@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, SelectField, IntegerField, RadioField, TextAreaField
+from wtforms import StringField, SubmitField, SelectField, IntegerField, RadioField, TextAreaField, DecimalField
 from wtforms.widgets import TextArea
 from wtforms.validators import DataRequired, Optional, InputRequired, Email
 from flask_babel import gettext, ngettext, lazy_gettext
@@ -145,8 +145,8 @@ class ComparisonQuestions(FlaskForm):
 
     question2 = RadioField('PayMore', choices=question2_choices) 
 
-    question3_text = lazy_gettext("How much would you pay for chocolate WD? (Answer in Euros and, as reference, assume 2 EUR as the approximate price average per unit)")
-    question3 = IntegerField('Price')
+    question3_text = lazy_gettext("How much would you pay for chocolate WD? (Answer in Euros and, as reference, assume 0.5 EUR as the approximate price average per unit)")
+    question3 = DecimalField('Price')
 
     question4_text = lazy_gettext("Which chocolate did you prefer ?")
     question4_choices = utility.randomize_choices([
@@ -165,8 +165,8 @@ class ComparisonQuestions(FlaskForm):
 
     question5 = RadioField('XPPrefer', choices=question5_choices)
     
-    question6_text = lazy_gettext("How much would you pay for chocolate TK? (Answer in Euros and, as reference, assume 2 EUR as the approximate price average per unit)")
-    question6 = IntegerField('Price') 
+    question6_text = lazy_gettext("How much would you pay for chocolate TK? (Answer in Euros and, as reference, assume 0.5 EUR as the approximate price average per unit)")
+    question6 = DecimalField('Price') 
 
     submit = SubmitField(lazy_gettext('Next'))  
 

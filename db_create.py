@@ -2,7 +2,7 @@ import sqlite3 as sqlt
 import sys
 
 # open connection to new database
-conn = sqlt.connect('exp_data3.db')
+conn = sqlt.connect('exp_data_auto.db')
 
 with conn:    
     cur = conn.cursor()   
@@ -37,10 +37,10 @@ with conn:
                     snd2_q8 INTEGER NOT NULL,
                     cmp_q1 TEXT NOT NULL,
                     cmp_q2 TEXT NOT NULL,
-                    cmp_q3 INTEGER NOT NULL,
+                    cmp_q3 REAL NOT NULL,
                     cmp_q4 TEXT NOT NULL,
                     cmp_q5 TEXT NOT NULL,
-                    cmp_q6 INTEGER NOT NULL)''')
+                    cmp_q6 REAL NOT NULL)''')
     
     # commit changes to the database
     conn.commit()

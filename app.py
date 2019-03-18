@@ -20,7 +20,9 @@ import utility as util
 #----------------------------------------------------------#
 app = Flask(__name__)
 
-DATABASE_FILE = 'exp_data3.db'
+DATABASE_FILE_AUTO = 'exp_data_auto.db'
+DATABASE_FILE_CREAMY = 'exp_data_creamy.db'
+DATABASE_FILE_EMOTIONS = 'exp_data_emotions.db'
 UPLOAD_FOLDER = 'static/uploaded'
 MAX_COUNTER = 8
 NUM_AUDIO_FILES = 154
@@ -67,7 +69,16 @@ def get_locale():
 
 #----------------------------------------------------------#
 def insert_xp_results(results_tuple):
-    with sqlt.connect(DATABASE_FILE) as db_connection:
+    db_file = ""
+
+    if launch_config == "CONFIG_AUTO":
+        db_file = DATABASE_FILE_AUTO
+    elif launch_config == "CONFIG_CREAMY":
+        db_file = DATABASE_FILE_CREAMY
+    elif launch_config == "CONFIG_EMOTIONS":
+        db_file = DATABASE_FILE_EMOTIONS
+
+    with sqlt.connect(db_file) as db_connection:
         cur = db_connection.cursor()
 
         cur.execute('''INSERT INTO XP_RESULTS(name, email, age, city, gender, flavor1, flavor2, sound1, sound2,
@@ -343,10 +354,10 @@ def comparative_questions():
     if request.method == 'POST' and comparative_form.validate_on_submit():
         session['cmp_q1'] = comparative_form.question1.data
         session['cmp_q2'] = comparative_form.question2.data
-        session['cmp_q3'] = int(comparative_form.question3.data)
+        session['cmp_q3'] = float(comparative_form.question3.data)
         session['cmp_q4'] = comparative_form.question4.data
         session['cmp_q5'] = comparative_form.question5.data
-        session['cmp_q6'] = int(comparative_form.question6.data)        
+        session['cmp_q6'] = float(comparative_form.question6.data)        
         
         return redirect(url_for('final_page'))
 
