@@ -9,8 +9,8 @@ html, body {
 
 #form_frame {
     border: 1px solid black;
-    width: 800px;
-    height: 920px;
+    width: 50%;
+    height: 98%;
     background-color: white;
 
     position: absolute;
@@ -25,8 +25,8 @@ html, body {
 
 #form_frame_questions {
     border: 1px solid black;
-    width: 800px;
-    height: 1550px;
+    width: 50%;
+    height: 165%;
     background-color: white;
 
     position: absolute;
@@ -42,8 +42,8 @@ html, body {
 
 #form_frame_questions_cmp {
     border: 1px solid black;
-    width: 800px;
-    height: 1250px;
+    width: 60%;
+    height: 130%;
     background-color: white;
 
     position: absolute;
@@ -58,8 +58,8 @@ html, body {
 
 #instruct_frame {
     border: 1px solid black;
-    width: 800px;
-    height: 350px;
+    width: 60%;
+    height: 40%;
     background-color: white;
 
     position: absolute;
@@ -75,8 +75,8 @@ html, body {
 
 #thanks_frame {
     border: 1px solid black;
-    width: 800px;
-    height: 850px;
+    width: 50%;
+    height: 90%;
     background-color: white;
 
     position: absolute;
@@ -91,8 +91,8 @@ html, body {
 
 #instruct_frame_large {
     border: 1px solid black;
-    width: 800px;
-    height: 850px;
+    width: 50%;
+    height: 90%;
     background-color: white;
 
     position: absolute;

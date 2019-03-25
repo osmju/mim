@@ -377,7 +377,10 @@ def final_page():
 
 #----------------------------------------------------------#
 if __name__ == '__main__':
-    launch_config = sys.argv[1]
+    if len(sys.argv) < 2:
+        launch_config = "CONFIG_AUTO"
+    else:    
+        launch_config = sys.argv[1]    
 
     print "Launching with launch configuration = {0}".format(launch_config)    
 
