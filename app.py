@@ -225,6 +225,7 @@ def login():
         
         if consent == "disagree":
             print "User disagrees with consent. ABORT."
+            return render_template('login.html', form=login_form, lang=current_language)
             # TODO :: Redirect to ABORT page
         
         session['exp_name'] = name
