@@ -248,16 +248,32 @@ def login():
             session['sound2'] = util.get_random_sound(AUDIO_FOLDER, session['flavour2'])
             
         elif launch_config == "CONFIG_CREAMY":  
-            session['flavour1'] = 'creamy'
-            session['flavour2'] = 'rough'
-            session['sound1'] = 'fixed_sounds/WD_creamy_soundtrack.mp3'
-            session['sound2'] = 'fixed_sounds/TK_rough_soundtrack.mp3'
+            selected_flavor = random.randint(0,1)
+            
+            if selected_flavor == 0: # creamy
+                session['flavour1'] = 'creamy'
+                session['flavour2'] = 'rough'
+                session['sound1'] = 'fixed_sounds/WD_creamy_soundtrack.mp3'
+                session['sound2'] = 'fixed_sounds/TK_rough_soundtrack.mp3'
+            else:
+                session['flavour2'] = 'creamy'
+                session['flavour1'] = 'rough'
+                session['sound2'] = 'fixed_sounds/WD_creamy_soundtrack.mp3'
+                session['sound1'] = 'fixed_sounds/TK_rough_soundtrack.mp3'
         
         elif launch_config == "CONFIG_EMOTIONS":
-            session['flavour1'] = 'emotions04'
-            session['flavour2'] = 'emotions01'
-            session['sound1'] = 'fixed_sounds/WD_music_emotions_04.mp3'
-            session['sound2'] = 'fixed_sounds/TK_music_emotions_01.mp3'        
+            selected_flavor = random.randint(0,1)
+
+            if selected_flavor == 0: # emotions04
+                session['flavour1'] = 'emotions04'
+                session['flavour2'] = 'emotions01'
+                session['sound1'] = 'fixed_sounds/WD_music_emotions_04.mp3'
+                session['sound2'] = 'fixed_sounds/TK_music_emotions_01.mp3'        
+            else:
+                session['flavour2'] = 'emotions04'
+                session['flavour1'] = 'emotions01'
+                session['sound2'] = 'fixed_sounds/WD_music_emotions_04.mp3'
+                session['sound1'] = 'fixed_sounds/TK_music_emotions_01.mp3'        
 
         print session['flavour1']
         print session['flavour2']

@@ -83,7 +83,7 @@ thanks = lazy_gettext(u"""
         <br/>
 
         If you have any questions, please send them to
-        f.reinosoc@uniandes.edu.com.
+        felipe.reinosocarvalho@kuleuven.be.
         <br/>
         <br/> 
 
