@@ -32,6 +32,12 @@
                         {% else %}
                             <option value="nl">Nederlands</option>
                         {% endif %}
+
+                        {% if lang=="es" %}
+                            <option value="es" selected="selected">Espanol</option>
+                        {% else %}
+                            <option value="es">Espanol</option>
+                        {% endif %}
                     </select>
                 </div>
             </div>
@@ -132,6 +138,9 @@ $('#language_select').change(function() {
     } 
     else if (lang_selected == "nl") {
         $('#dummy').load('{{ url_for("change_language", lang="nl") }}' );
+    }
+    else if (lang_selected == "es") {
+        $('#dummy').load('{{ url_for("change_language", lang="es") }}' );
     } 
     
     $('#language_select').val(lang_selected);

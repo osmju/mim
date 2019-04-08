@@ -39,7 +39,8 @@ current_language = 'en'
 LANGUAGES = {
     'en': 'English',
     'fr': 'Français',
-    'nl': 'Nederlands'
+    'nl': 'Nederlands', 
+    'es': 'Espanol'
 }
 
 # LAUNCH Configuration

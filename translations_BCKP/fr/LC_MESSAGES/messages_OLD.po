@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-20 18:58+0100\n"
-"PO-Revision-Date: 2019-02-20 18:58+0100\n"
+"POT-Creation-Date: 2019-01-11 12:06+0100\n"
+"PO-Revision-Date: 2019-01-11 12:06+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
@@ -18,7 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: forms.py:13
+#: app.py:141
+msgid "REDIRECTING TO NEW EXPERIMENT"
+msgstr ""
+
+#: forms.py:11
 msgid ""
 "        \n"
 "        During this experiment you will be asked to taste chocolate \n"
@@ -66,206 +70,205 @@ msgstr ""
 "        n'hésitez pas à faire appel à l'un des assistants de recherche.\n"
 ""
 
-
-#: forms.py:36
+#: forms.py:34
 msgid "Name"
 msgstr "Nom"
 
-#: forms.py:37
+#: forms.py:35
 msgid "Email (Optional)"
-msgstr "Email (Optionel)"
+msgstr "Email (optionel)"
 
-#: forms.py:38
+#: forms.py:36
 msgid "Age"
 msgstr "Age"
 
-#: forms.py:39
+#: forms.py:37
 msgid "City or country of residence"
 msgstr "Ville ou pays de résidence"
 
-#: forms.py:40
+#: forms.py:38
 msgid "Gender"
-msgstr "Sexe"
+msgstr "Genre"
 
-#: forms.py:41
+#: forms.py:39
 msgid "Male"
 msgstr "Masculin"
 
-#: forms.py:42
+#: forms.py:40
 msgid "Female"
 msgstr "Féminin"
 
-#: forms.py:43
+#: forms.py:41
 msgid "Other"
 msgstr "Autre"
 
-#: forms.py:45
+#: forms.py:43
 msgid "Informed Consent"
 msgstr "Devoir d'information"
 
-#: forms.py:47
+#: forms.py:45
 msgid "I agree"
 msgstr "Je suis d'accord"
 
-#: forms.py:47
+#: forms.py:45
 msgid "I disagree"
 msgstr "Je ne suis pas d'accord"
 
-#: forms.py:48 forms.py:128 forms.py:171 templates/instructions.html:20
+#: forms.py:46 forms.py:126 forms.py:160 templates/instructions.html:20
 #: templates/listen_sound.html:37
 msgid "Next"
 msgstr "Suivant"
 
-#: forms.py:64
+#: forms.py:62
 msgid "How sour was this chocolate's flavour ?"
-msgstr "Avez vous trouvé ce chocolat acide ?"
+msgstr "La saveur du chocolat était-elle acide ?"
 
-#: forms.py:66 forms.py:74 forms.py:82 forms.py:90 forms.py:98 forms.py:106
-#: forms.py:114
+#: forms.py:64 forms.py:72 forms.py:80 forms.py:88 forms.py:96 forms.py:104
+#: forms.py:112
 msgid "1 - Not at all"
 msgstr "1 - Pas du tout"
 
-#: forms.py:68 forms.py:76 forms.py:84 forms.py:92 forms.py:100 forms.py:108
-#: forms.py:116
+#: forms.py:66 forms.py:74 forms.py:82 forms.py:90 forms.py:98 forms.py:106
+#: forms.py:114
 msgid "4 - Moderate"
 msgstr "4 - Moyennement"
 
-#: forms.py:70
+#: forms.py:68
 msgid "7 - Very sour"
-msgstr "7 - Très acide""
+msgstr "7 - Très acide"
 
-#: forms.py:72
+#: forms.py:70
 msgid "How much did you like this sound ?"
-msgstr "A quel point avez vous aimez ce son"
+msgstr "Avez vous aimé le son ?"
 
-#: forms.py:78 forms.py:86 forms.py:118
+#: forms.py:76 forms.py:84 forms.py:116
 msgid "7 - Very much"
-msgstr "7 - Enormément"
+msgstr "7 - Très beaucoup"
 
-#: forms.py:80
+#: forms.py:78
 msgid "How much did you enjoy the flavour of this chocolate ?"
-msgstr "A quel point avez vous apprécié la saveur de ce chocolat ?"
+msgstr "Avez vous apprécié la saveur de ce chocolat ? "
 
-#: forms.py:88
+#: forms.py:86
 msgid "How bitter was this chocolate's flavour ?"
-msgstr "Avez vous trouvé ce chocolat amer ?"
+msgstr "La saveur du chocolat était-elle amer ?"
 
-#: forms.py:94
+#: forms.py:92
 msgid "7 - Very bitter"
 msgstr "7 - Très amer"
 
-#: forms.py:96
+#: forms.py:94
 msgid "How sweet was this chocolate's flavour ?"
-msgstr "Avez vous trouvé ce chocolat sucré ?"
+msgstr "La saveur du chocolat était elle sucrée ?"
+
+#: forms.py:100
+msgid "7 - Very sweet"
+msgstr "7 - Très sucrée"
 
 #: forms.py:102
-msgid "7 - Very sweet"
-msgstr "7 - Très sucré"
-
-#: forms.py:104
 msgid "How strong was this chocolate's flavour ?"
-msgstr "La saveur de ce chocolat vous a -t- elle paru forte ?"
+msgstr "Avez vous trouvé le goût du chocolat fort ?"
+
+#: forms.py:108
+msgid "7 - Very strong"
+msgstr "7 - Très fort"
 
 #: forms.py:110
-msgid "7 - Very strong"
-msgstr "7 - Très forte"
-
-#: forms.py:112
 msgid "How much do you think this song matches with this chocolate's flavour?"
-msgstr "A quel point pensez vous que le son corresponde à la saveur du chocolat ?"
+msgstr "Pensez vous que le son corresponde à la saveur de ce chocolat ? "
+
+#: forms.py:118
+msgid "How was the texture of this chocolate?"
+msgstr "Quelle était la texture du chocolat ? "
 
 #: forms.py:120
-msgid "How was the texture of this chocolate?"
-msgstr "Comment avez vous trouvé la texture du chocolat ?"
+msgid "1 - Very hard"
+msgstr "1 - Très croquante"
 
 #: forms.py:122
-msgid "1 - Very hard"
-msgstr "1 - Très dure"
-
-#: forms.py:124
 msgid "4 - Balanced"
 msgstr "4 - Modérée"
 
-#: forms.py:126
+#: forms.py:124
 msgid "7 - Very soft"
 msgstr "7 - Très souple"
 
-#: forms.py:132
+#: forms.py:130
 msgid "Which chocolate (between WD and TK) do you think is more expensive?"
 msgstr "D'après vous, quel chocolat (entre WD et TK) est le plus cher ?"
 
-#: forms.py:134 forms.py:155
+#: forms.py:132 forms.py:148
 msgid "Chocolate WD"
 msgstr "Chocolat WD"
 
-#: forms.py:135 forms.py:156
+#: forms.py:133 forms.py:149
 msgid "Chocolate TK"
 msgstr "Chocolat TK"
 
-#: forms.py:136
+#: forms.py:134
 msgid "Both have the same price"
 msgstr "Les deux ont le même prix"
 
-#: forms.py:141
+#: forms.py:136
 msgid ""
 "Would you pay more for a chocolate experience that comes with a song that"
 " is able to enhance its flavour? (Compared to the average price of a "
 "chocolate without any music?)"
 msgstr "Accepteriez vous de payer plus pour un chocolat vendu avec un son capable"
-" d'améliorer sa saveur ? (par rapport au prix moyen d'un chocolat sans son)."
+" d'améliorer sa saveur ? (par rapport au prix moyen d'un chocolat sans son).
 
-#: forms.py:143
+#: forms.py:138
 msgid "Yes"
 msgstr "Oui"
 
-#: forms.py:144
+#: forms.py:139
 msgid "No"
 msgstr "Non"
 
-#: forms.py:148
+#: forms.py:141
 msgid ""
 "How much would you pay for chocolate WD? (Answer in Euros and, as "
-"reference, assume 0.5 EUR as the approximate price average per unit)"
+"reference, assume 2 EUR as the approximate price average per unit)"
 msgstr ""
 "Combien seriez vous prêts à payer pour le chocolat WD ? (Répondez en "
-"Euros, en considérant que 0.5 EUR est le prix moyen d'un morceau de"
+"Euros, en considérant que 2 EUR est le prix moyen d'un morceau de"
 " chocolat standard)"
 
-#: forms.py:151
+#: forms.py:144
 msgid "Which chocolate did you prefer ?"
 msgstr "Quel chocolat avez vous préféré ?"
 
-#: forms.py:153
+#: forms.py:146
 msgid "I like both equally"
-msgstr "J'ai aimé les deux"
+msgstr "Les deux"
 
-#: forms.py:154
+#: forms.py:147
 msgid "None"
 msgstr "Aucun"
 
-#: forms.py:160
+#: forms.py:151
 msgid "Which experience did you prefer?"
-msgstr "Quelle expérience avez vous préférée ?"
+msgstr "Quelle expérience avez vous préféré ?"
 
-#: forms.py:162
+#: forms.py:153
 msgid "With chocolate WD"
 msgstr "Avec le chocolat WD"
 
-#: forms.py:163
+#: forms.py:154
 msgid "Both equally"
 msgstr "Les deux"
 
-#: forms.py:164
+#: forms.py:155
 msgid "With chocolate TK"
 msgstr "Avec le chocolat TK"
 
-#: forms.py:168
+#: forms.py:157
 msgid ""
 "How much would you pay for chocolate TK? (Answer in Euros and, as "
-"reference, assume 0.5 EUR as the approximate price average per unit)"
+"reference, assume 2 EUR as the approximate price average per unit)"
 msgstr ""
 "Combien seriez vous prêts à payer pour le chocolat TK ? "
-"(Répondez en Euros, en considérant que 0.5 EUR est le prix moyen d'un morceau de chocolat standard)"
+"(Répondez en Euros, en considérant que 2 EUR est le prix moyen d'un morceau de chocolat standard)"
 
 #: strings.py:4
 msgid ""
@@ -343,7 +346,6 @@ msgstr ""
 " <br/>\n"
 " <i> Lorsque le son est terminé, passez à la page suivante et répondez aux questions. </i>\n" 
 
-
 #: strings.py:47
 msgid ""
 "\n"
@@ -407,7 +409,7 @@ msgid ""
 "        <br/>\n"
 "\n"
 "        If you have any questions, please send them to\n"
-"        felipe.reinosocarvalho@kuleuven.be.\n"
+"        f.reinosoc@uniandes.edu.com.\n"
 "        <br/>\n"
 "        <br/> \n"
 "\n"
@@ -441,7 +443,7 @@ msgstr ""
 "        <br/>\n"
 "\n"
 "        Pour toute question, veuillez vous adresser par email à\n"
-"        felipe.reinosocarvalho@kuleuven.be.\n"
+"        f.reinosoc@uniandes.edu.com.\n"
 "        <br/>\n"
 "        <br/> \n"
 "\n"
@@ -460,7 +462,7 @@ msgstr ""
 "        Nous espérons que avez apprécié cette nouvelle manière de goûter du chocolat Belge !\n "
 "    "
 
-#: templates/login.html:13
+#: templates/login.html:11
 msgid "Participant's Informations"
 msgstr "Informations personnelles"
 

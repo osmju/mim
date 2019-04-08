@@ -1,4 +1,4 @@
-# Dutch translations for PROJECT.
+# Spanish translations for PROJECT.
 # Copyright (C) 2019 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-02-20 18:58+0100\n"
-"PO-Revision-Date: 2019-02-20 18:58+0100\n"
+"PO-Revision-Date: 2019-04-08 11:58+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: nl\n"
-"Language-Team: nl <LL@li.org>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -45,72 +45,76 @@ msgid ""
 "        "
 msgstr ""
 "	\n"
-"Tijdens dit experiment zal je gevraagd worden om chocolade te proeven \n"
-"(twee kleine porties).\n"
+"        Durante este experimento se le pedira que pruebe el chocolate \n"
+"        (dos porciones pequenas).\n"
 "\n"
-"Wanneer je deelneemt aan dit experiment, bevestig je dat je geen problemen \n" 
-"hebt met het eten van chocolade (bv. allergieën of diabetes) en \n"
-"ook geen problemen hebt met het waarnemen van smaak, geur of met jouw \n"
-"visuele en gehoor capaciteiten.\n"
+"        Al participar en este experimento, usted confirma que usted \n"
+"	 no tienen ningun impedimento al consumir chocolate \n"
+"        (es decir, alergias o diabetes), ni un impedimento \n"
+"	 con tus sentidos del gusto, el olfato, o cualquier problema con \n"
+"	 sus capacidades visuales y auditivas\n."
 "\n"
-"Voor jouw veiligheid zal de persoonlijke informatie die je hier geeft, \n"
-"niet gedeeld worden met iemand anders en niet publiek gebruikt worden.\n"
+"        Por su seguridad, la informacion personal que se encuentra aqui \n"
+"	 no sera compartida con nadie mas, y no sera \n" 
+"	 usado publicamente.\n"
 "\n"
-"Als je hieronder klikt, bevestig je dat je akkoord gaat met de hierboven \n"
-"vermelde voorwaarden en kan je aan het experiment beginnen.\n"
+"        Al hacer clic a continuacion, usted confirma que esta de acuerdo con\n"
+"	 las condiciones mencionadas anteriormente, y puedes empezar el experimento.\n"
 "\n"
-"Onthoud dat je op elk moment jouw deelname aan dit experiment mag stoppen, \n"
-"zonder enige gevolgen. Als je hulp nodig hebt of vragen hebt, aarzel \n"
-"dan niet om één van de aanwezige onderzoeksassistenten aan te spreken.\n"
+"        Por favor, tenga en cuenta que puede dejar de participar en este \n"
+"	 experimento en cualquier momento, sin ninguna consecuencia.\n" 
+"	 Si necesitas ayuda o si tiene alguna pregunta \n"
+"	 por favor no dude en llamar a cualquiera de \n"
+"	 los actuales asistentes de investigacion. \n"
 
 #: forms.py:36
 msgid "Name"
-msgstr "Naam"
+msgstr "Nombre"
 
 #: forms.py:37
 msgid "Email (Optional)"
-msgstr "E-mail (optioneel)"
+msgstr "Email (Opcional)"
 
 #: forms.py:38
 msgid "Age"
-msgstr "Leeftijd"
+msgstr "Edad"
 
 #: forms.py:39
 msgid "City or country of residence"
-msgstr "Stad of land van vestiging"
+msgstr "Cuidad o pais de residencia"
 
 #: forms.py:40
 msgid "Gender"
-msgstr "Geslacht"
+msgstr "Genero"
 
 #: forms.py:41
 msgid "Male"
-msgstr "Mannelijk"
+msgstr "Masculino"
 
 #: forms.py:42
 msgid "Female"
-msgstr "Vrouwelijk"
+msgstr "Feminino"
 
 #: forms.py:43
 msgid "Other"
-msgstr "Ander"
+msgstr "Otro"
 
 #: forms.py:45
 msgid "Informed Consent"
-msgstr "Geïnformeerde toestemming"
+msgstr "Consentimiento informado"
 
 #: forms.py:47
 msgid "I agree"
-msgstr "Ik ga akkoord"
+msgstr "Estoy de acuerdo"
 
 #: forms.py:47
 msgid "I disagree"
-msgstr "Ik ga niet akkoord"
+msgstr "No estoy de acuerdo"
 
 #: forms.py:48 forms.py:128 forms.py:171 templates/instructions.html:20
 #: templates/listen_sound.html:37
 msgid "Next"
-msgstr "Volgend"
+msgstr ""
 
 #: forms.py:64
 msgid "How sour was this chocolate's flavour ?"
@@ -119,143 +123,148 @@ msgstr ""
 #: forms.py:66 forms.py:74 forms.py:82 forms.py:90 forms.py:98 forms.py:106
 #: forms.py:114
 msgid "1 - Not at all"
-msgstr "1 - Helemaal niet"
+msgstr "1 - No, en absoluto"
 
 #: forms.py:68 forms.py:76 forms.py:84 forms.py:92 forms.py:100 forms.py:108
 #: forms.py:116
 msgid "4 - Moderate"
-msgstr "4 - Matig"
+msgstr "4 - Moderado "
 
 #: forms.py:70
 msgid "7 - Very sour"
-msgstr "7 - Erg zuur"
+msgstr "7 - Muy agrio"
 
 #: forms.py:72
 msgid "How much did you like this sound ?"
-msgstr "Hoe leuk vond je deze muziek?"
+msgstr "Cuanto te gusto este sonido ?"
 
 #: forms.py:78 forms.py:86 forms.py:118
 msgid "7 - Very much"
-msgstr "7 - Zeer"
+msgstr "7 - En gran medida"
 
 #: forms.py:80
 msgid "How much did you enjoy the flavour of this chocolate ?"
-msgstr "In welke mate heb je genoten van de smaak van deze chocolade?"
+msgstr "Cuanto disfrutaste del sabor de este chocolate ?"
 
 #: forms.py:88
 msgid "How bitter was this chocolate's flavour ?"
-msgstr "Hoe bitter was de smaak van deze chocolade?"
+msgstr "Que tan amargo era el sabor de este chocolate?"
 
 #: forms.py:94
 msgid "7 - Very bitter"
-msgstr "7 - Heel bitter"
+msgstr "7 - Muy amargo"
 
 #: forms.py:96
 msgid "How sweet was this chocolate's flavour ?"
-msgstr "Hoe zoet was de smaak van deze chocolade?"
+msgstr "Que tan dulce era el sabor de este chocolate ?"
 
 #: forms.py:102
 msgid "7 - Very sweet"
-msgstr "7 - Heel lief"
+msgstr "7 - Muy dulce"
 
 #: forms.py:104
 msgid "How strong was this chocolate's flavour ?"
-msgstr "Hoe sterk was de smaak van deze chocolade?"
+msgstr "Que tan fuerte era el sabor de este chocolate ?"
 
 #: forms.py:110
 msgid "7 - Very strong"
-msgstr ""
+msgstr "7 - Muy fuerte"
 
 #: forms.py:112
 msgid "How much do you think this song matches with this chocolate's flavour?"
-msgstr "In welke mate vind je dat dit lied past bij de smaak van de chocolade?"
+msgstr "Cuanto crees que combina esta cancion con el sabor de este chocolate ?"
 
 #: forms.py:120
 msgid "How was the texture of this chocolate?"
-msgstr "Hoe was de textuur van deze chocolade?"
+msgstr "Como era la textura de este chocolate?"
 
 #: forms.py:122
 msgid "1 - Very hard"
-msgstr "1 - Heel hard"
+msgstr "1 - Muy fuerte"
 
 #: forms.py:124
 msgid "4 - Balanced"
-msgstr "4 - Gebalanceerd"
+msgstr "4 - Moderada"
 
 #: forms.py:126
 msgid "7 - Very soft"
-msgstr "7 - Heel zacht"
+msgstr "7 - Muy suave"
 
 #: forms.py:132
 msgid "Which chocolate (between WD and TK) do you think is more expensive?"
-msgstr "Welke chocolade (tussen WD of TK) denk je dat het duurst is?"
+msgstr "Que chocolate (entre WD y TK) le parece mas caro?"
 
 #: forms.py:134 forms.py:155
 msgid "Chocolate WD"
-msgstr "Chocolade WD"
+msgstr "Chocolate WD"
 
 #: forms.py:135 forms.py:156
 msgid "Chocolate TK"
-msgstr "Chocolade TK"
+msgstr "Chocolate TK"
 
 #: forms.py:136
 msgid "Both have the same price"
-msgstr "Ze hebben beide dezelfde prijs"
+msgstr "Ambos tienen el mismo precio"
 
 #: forms.py:141
 msgid ""
 "Would you pay more for a chocolate experience that comes with a song that"
 " is able to enhance its flavour? (Compared to the average price of a "
 "chocolate without any music?)"
-msgstr "Zou je meer betalen voor een chocolade ervaring waarbij je een lied krijgt dat de smaak kan versterken? (Vergeleken met de gemiddelde prijs van chocolade zonder muziek)?"
+msgstr "Pagarias mas por una experiencia de chocolate que viene con una cancion que"
+" es capaz de realzar su sabor? (En comparacion con el precio medio de un "
+" chocolate sin musica?)"
 
 #: forms.py:143
 msgid "Yes"
-msgstr "Ja"
+msgstr "Si"
 
 #: forms.py:144
 msgid "No"
-msgstr "Nee"
+msgstr "No"
 
 #: forms.py:148
 msgid ""
 "How much would you pay for chocolate WD? (Answer in Euros and, as "
 "reference, assume 0.5 EUR as the approximate price average per unit)"
-msgstr "Hoe veel zou je betalen voor chocolade WD? (Antwoord in euro. Als referentiepunt mag je er van uitgaan dat 0.5 euro de gemiddelde prijs per unit is)"
+msgstr "Cuanto pagarias por el chocolate WD? (Conteste en euros y, como "
+"referencia, suponga 0.5 EUR como el precio medio aproximado por unidad)"
 
 #: forms.py:151
 msgid "Which chocolate did you prefer ?"
-msgstr "Welke chocolade heeft uw voorkeur?"
+msgstr "Que chocolate preferias?"
 
 #: forms.py:153
 msgid "I like both equally"
-msgstr "Ik vond beide even goed"
+msgstr "Me gustan los dos por igual"
 
 #: forms.py:154
 msgid "None"
-msgstr "Geen"
+msgstr "Ninguno"
 
 #: forms.py:160
 msgid "Which experience did you prefer?"
-msgstr "Welke ervaring heeft uw voorkeur"
+msgstr "Que experiencia preferiste?"
 
 #: forms.py:162
 msgid "With chocolate WD"
-msgstr "Met chocolade WD"
+msgstr "Con chocolate WD"
 
 #: forms.py:163
 msgid "Both equally"
-msgstr "Beide gelijkelijk"
+msgstr "Ambos por igual"
 
 #: forms.py:164
 msgid "With chocolate TK"
-msgstr "Met chocolade TK"
+msgstr "Con chocolate TK"
 
 #: forms.py:168
 msgid ""
 "How much would you pay for chocolate TK? (Answer in Euros and, as "
 "reference, assume 0.5 EUR as the approximate price average per unit)"
-msgstr "Hoe veel zou je betalen voor chocolade TK? (Antwoord in euro. Als referentiepunt mag je er van uitgaan dat 0.5 euro de gemiddelde prijs per unit is)"
+msgstr ""
+"Cuanto pagarias por el chocolate TK? (Conteste en euros y, como "
+"referencia, suponga 0.5 EUR como el precio medio aproximado por unidad)"
 
 #: strings.py:4
 msgid ""
@@ -275,13 +284,19 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"	Beste deelnemer, \n"
-"	in dit experiment zal je twee chocolades proeven en jouw ervaring evalueren door \n"
-"	een vragenlijst te beantwoorden.\n"
+"        Estimado participante, \n"
 "        <br/>\n"
 "        <br/>\n"
 "\n"
-"	Dit is een vergelijkende oefening. Volg alstublieft de instructies nauwgezet op.\n"
+"        En este experimento, degustaran dos chocolates y evaluaran "
+"tu\n"
+"	 experiencia respondiendo a una encuesta.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        Este es un ejercicio comparativo. Por favor, siga las instrucciones.\n"
+"	 con cuidado.\n"
+"    "
 
 #: strings.py:20
 msgid ""
@@ -315,23 +330,32 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"	Drink een beetje water en spoel je mond. Zet daarna de hoofdtelefoon op. <br/>\n"
-"	<br/>\n"
-"	Proef nu de chocolade <b>WD</b> terwijl je naar de soundtrack luistert. \n"
-"	Je moet op de ‘speel’ knop klikken om het geluid te laten spelen. \n"
-"	Vanaf je het geluid hoort, steek je de chocolade in je mond en begin je te proeven. \n"
-"	<br/>\n"
-"	<br/>\n"
-"	<h3>SLIK DE CHOCOLADE NIET METEEN IN!</h3>\n"
-"	<br/>\n"
-"	\n"
-"	Laat het smelten in je mond, zodat je de details van de smaak kan proeven. \n"
-"	Je mag ook je ogen sluiten om je beter te kunnen concentreren.\n"
-"	<br/>\n"
-"	<br/>\n"
-"	Wanneer de soundtrack gedaan is, ga je naar de volgende pagina en kan je de vragen \n"
-"	beginnen beantwoorden.\n"
-"	"
+"        Bebe un poco de agua para enjuagarte la boca. Despues de eso, ponte el\n"
+" 	 auriculares. <br/>\n"
+"        <br/>\n"
+"\n"
+"        Ahora, prueba el chocolate <b>WD</b> mientras escuchas el \n"
+"        siguiendo la banda sonora. Debes hacer clic en el boton \"play\""
+" 	 para que el sonido comience a sonar. <br/>\n"
+"        <br/>\n"
+"\n"
+"        Una vez que empiece a escuchar el sonido, ponga el chocolate dentro de su "
+"	 boca\n"
+"	 y empeza a probarlo. <br/>\n"
+"        <br/>\n"
+"	 \n"
+"        <h3>No mastica el chocolate inmediatamente!</h3>\n"
+"        <br/>\n"
+"        \n"
+"        Deja que se derrita dentro de tu boca, para que puedas sentir los detalles de su"
+"\n"
+"	 sabor. Tambien puedes cerrar los ojos para concentrarte mejor.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        Cuando la banda sonora haya terminado, vaya a la pagina siguiente y empiece "
+"	respondiendo\n"
+"	las preguntas. </i>\n"
 
 #: strings.py:47
 msgid ""
@@ -365,23 +389,32 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"	Drink een beetje water en spoel je mond. Zet daarna de hoofdtelefoon op. <br/>\n"
-"	<br/>\n"
-"	Proef nu de chocolade <b>TK</b> terwijl je naar de soundtrack luistert. \n"
-"	Je moet op de ‘speel’ knop klikken om het geluid te laten spelen. \n"
-"	Vanaf je het geluid hoort, steek je de chocolade in je mond en begin je te proeven. \n"
-"	<br/>\n"
-"	<br/>\n"
-"	<h3>SLIK DE CHOCOLADE NIET METEEN IN!</h3>\n"
-"	<br/>\n"
-"	\n"
-"	Laat het smelten in je mond, zodat je de details van de smaak kan proeven. \n"
-"	Je mag ook je ogen sluiten om je beter te kunnen concentreren.\n"
-"	<br/>\n"
-"	<br/>\n"
-"	Wanneer de soundtrack gedaan is, ga je naar de volgende pagina en kan je de vragen \n"
-"	beginnen beantwoorden.\n"
-"	"
+"        Bebe un poco de agua para enjuagarte la boca. Despues de eso, ponte el\n"
+" 	 auriculares. <br/>\n"
+"        <br/>\n"
+"\n"
+"        Ahora, prueba el chocolate <b>TK</b> mientras escuchas el \n"
+"        siguiendo la banda sonora. Debes hacer clic en el boton \"play\""
+" 	 para que el sonido comience a sonar. <br/>\n"
+"        <br/>\n"
+"\n"
+"        Una vez que empiece a escuchar el sonido, ponga el chocolate dentro de su "
+"	 boca\n"
+"	 y empeza a probarlo. <br/>\n"
+"        <br/>\n"
+"	 \n"
+"        <h3>No mastica el chocolate inmediatamente!</h3>\n"
+"        <br/>\n"
+"        \n"
+"        Deja que se derrita dentro de tu boca, para que puedas sentir los detalles de su"
+"\n"
+"	 sabor. Tambien puedes cerrar los ojos para concentrarte mejor.\n"
+"        <br/>\n"
+"        <br/>\n"
+"\n"
+"        Cuando la banda sonora haya terminado, vaya a la pagina siguiente y empiece "
+"	respondiendo\n"
+"	las preguntas. </i>\n"
 
 #: strings.py:73
 msgid ""
@@ -399,7 +432,7 @@ msgid ""
 "        <br/>\n"
 "\n"
 "        If you have any questions, please send them to\n"
-"        felipe.reinosocarvalho@kuleuven.be.\n"
+"        felipe.reinosocarvalho@kuleuven.be..\n"
 "        <br/>\n"
 "        <br/> \n"
 "\n"
@@ -421,39 +454,43 @@ msgid ""
 "    "
 msgstr ""
 "	\n"
-"	Als je jouw e-mail adres hebt ingegeven aan het begin van dit experiment, \n"
-"	zal je in de komende weken gedetailleerde informatie ontvangen over de \n"
-"	doelstellingen van dit onderzoek.\n"
-"	<br/>\n"
-"	<br/>\n"
-"	Het protocol voor dit experiment is gevalideerd door de ethische \n"
-"	commissie van de Katholieke Universiteit Leuven.\n"
-"	<br/>\n"
-"	<br/>\n"
-"	Als je vragen hebt, kan je deze sturen naar \n"
-"	felipe.reinosocarvalho@kuleuven.be.\n"
-"	<br/>\n"
-"	<br/>\n"
-"	We verzoeken je vriendelijk om deze ervaring voor jezelf te houden \n"
-"	en geen informatie te delen, zodat de volgende deelnemers kunnen \n"
-"	genieten van de volledige ervaring.\n"
-"	<br/>\n"
-"	<br/>\n"
-"	Voor meer informatie over ons werk kan je \n"
-"	de blog http://sonictaste.weebly.com \n"
-"	of onze twitter-pagina (@sonictaste) bezoeken, of ons bezoeken \n"
-"	aan de Katholieke Universiteit Leuven.\n"
-"	<br/>\n"
-"	<br/>\n"
-"	We hopen dat je genoten hebt van deze nieuwe manier van proeven van Belgische chocolade ! \n"
-"	"
-
+"       Si ingreso su correo electronico al comienzo del experimento, \n"
+"	usted recibira informacion detallada sobre los objetivos de este "
+"	trabajo\n"
+"	en las próximas semanas."
+"       <br/>\n"
+"       <br/>\n"
+"\n"
+"       El protocolo para este experimento fue validado por el \n"
+"       Comité Ético de la Universidad Católica de Leuven.\n"
+"       <br/>\n"
+"       <br/>\n"
+"\n"
+"       Si tiene alguna pregunta, por favor enviela a\n"
+" 	felipe.reinosocarvalho@kuleuven.be.\n"
+"       <br/>\n"
+"       <br/> \n"
+"\n"
+"       Te pedimos que guardes esta experiencia para ti y no para\n".
+"	compartiendolo de tal manera que los proximos participantes puedan disfrutar\n" 
+"	al maximo de la experiencia.\n"
+"       <br/>\n"
+"       <br/>\n"
+"\n"
+"       Para mas informacion sobre nuestro trabajo, por favor visite \n"
+"	el blog http://sonictaste.weebly.com, \n"
+" 	nuestra pagina de twitter (@sonictaste), o ven a visitarnos al \n"
+"       Katholieke Universiteit Leuven.\n"
+"       <br/>\n"
+"       <br/>\n"
+"\n"
+"       Esperamos que hayan disfrutado de esta nueva forma de degustar el chocolate belga !\n"
 
 #: templates/login.html:13
 msgid "Participant's Informations"
-msgstr "Persoonlijke Informatie"
+msgstr "Informacion personal"
 
 #: templates/thanks.html:11
 msgid "Thank you for your participation !"
-msgstr "Bedankt voor uw deelname !"
+msgstr "Gracias por su participacion!"
 

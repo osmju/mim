@@ -295,6 +295,16 @@ html, body {
     font-size: 20px;
 }
 
+.inputfield_small {
+    font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+    color: #7F8C9A;
+    border: 1px solid #7F8C9A;
+    border-radius: 4px;
+    width: 30%;
+    background-color: white;
+    font-size: 20px;
+}
+
 #exp_container {
     border: 1px solid black;
     width: 1000px;
